@@ -10,6 +10,8 @@ import { ToastContainer } from 'react-toastify';
 import 'react-toastify/dist/ReactToastify.css'
 
 export const backendUrl = import.meta.env.VITE_BACKEND_URL;
+console.log("backendUrl",backendUrl)
+
 export const currency = '$';
 
 const App = () => {
